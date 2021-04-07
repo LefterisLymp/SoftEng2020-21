@@ -1,0 +1,6 @@
+
+        [console_scripts]
+        healthcheck=cli_client:healthcheck
+        resetsessions=cli_client:resetsessions
+        login=cli_client:login
+    
