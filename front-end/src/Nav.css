@@ -1,0 +1,10 @@
+nav {
+    margin-top: 0;
+    margin-left: 10px;
+    padding-bottom: 70px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.active {
+    background-color: #17a71e;
+}
