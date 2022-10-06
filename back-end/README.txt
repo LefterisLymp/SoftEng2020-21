@@ -1,13 +1,17 @@
-Για την δημιουργία του Backend:
-	python3 -m venv venv
-	source venv/bin/activate
-	pip install -r requirements.txt
+To create the Backend:
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+Change the config file app/config.py to insert your own MySQL configurations.
 
-Πρέπει να γίνει αλλαγή στο έγγραφο /app/config.py το οποίο περιέχει τα στοιχεία της mysql του user.
+Insert the SQL dumps to the MySQL database.
 
-Πρέπει επίσης από τα sql dumps να βάλει ο χρήστης τα αντίστοιχα δεδομένα στη βάση MySQL
+To run pytest properly an empty __init__.py file must be created inside tests directory.
+For testing:
 
-Για να τρέξει σωστά το pytest πρέπει να μπεί ένα κενό __init__ μέσα στο φάκελο tests
-Για το testing στο Terminal: 
-	cd .../tests
-	pytest -v
+```
+cd .../tests
+pytest -v
+```
